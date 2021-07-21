@@ -1,2 +1,2 @@
-# FE-Chitkara
-Assignments Of FrontEnd Course
+# WebDev-Chitkara
+Assignments Of WebDev Course
