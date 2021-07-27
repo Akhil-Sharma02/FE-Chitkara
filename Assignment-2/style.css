@@ -1,0 +1,54 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: #F4F9F9;
+}
+
+.content {
+    background-color: #CCF2F4;
+    position: relative;
+    width: 500px;
+    margin: auto;
+    max-height:600px;
+    overflow-y: scroll;
+    padding: 0px;
+}
+
+.section-heading {
+    background-color: #A4EBF3;
+    padding: 2px 0 0 12px;
+    position: sticky;
+    top: 0px;
+    font-size: 25px;
+}
+
+.section {
+    padding: 25px 0 0 0;
+    margin: 0px;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 0 0 0 12px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+li + li {
+    margin-top: 20px;
+}
+
+li > i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.func {
+    float: right;
+}
