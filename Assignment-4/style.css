@@ -91,6 +91,8 @@ h1 {
     height: 600px;
     margin: 50px auto;
     overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px grey;
 }
 
 .imgDiv {
@@ -98,7 +100,6 @@ h1 {
 }
 
 .imgDiv img {
-
     height: 600px;
     width: 65vw;
 }
