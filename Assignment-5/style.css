@@ -8,7 +8,6 @@ body {
 /* GENERAL SECTION */
 #projects > div > div, #skills > div > div, #about > div > div, #contact > div > div {
     width: 90%;
-    /* border: 5px solid black; */
 }
 
 section:nth-child(2n + 1) {
