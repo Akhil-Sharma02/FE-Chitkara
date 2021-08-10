@@ -1,0 +1,133 @@
+body {
+    font-family: "Montserrat","Nunito", "Lato",Arial, Helvetica, sans-serif;
+}
+
+
+
+
+/* GENERAL SECTION */
+#projects > div > div, #skills > div > div, #about > div > div, #contact > div > div {
+    width: 90%;
+    /* border: 5px solid black; */
+}
+
+section:nth-child(2n + 1) {
+    background-color: white;
+}
+
+section:nth-child(2n) {
+    background-color: #1ABC9C;
+    color: white;
+}
+
+h1 {
+    font-weight: 900;
+}
+p {
+    font-family: "Nunito";
+}
+
+
+/* NAVBAR */
+.navbar {
+    background-color: #2C3E50;
+    min-height: 15vh;
+    font-weight: 900;
+}
+
+.fab {
+    font-size: 25px;
+}
+
+/* STARTING */
+#header {
+    background-color: #1ABC9C !important;
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+    min-height: 100vh;
+}
+
+.avtaar {
+    width: 15rem;
+    border-radius: 50%;
+}
+
+.heading {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+
+
+/* PROJECTS */
+.card {
+    box-shadow: 1px 1px 10px grey;
+    padding: 0px;
+    min-height: 300px;
+}
+.card-body p {
+    font-size: 18px;
+    text-align: center;
+}
+h4{
+    font-weight: 550;
+}
+
+/* SKILLS */
+.progress {
+    border-radius: 40px;
+    height: 40px;
+    width: 300px;
+}
+
+.progress-bar {
+    background-color: #2C3E50;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+/* CONTACT */
+.form-control {
+    font-size: 1.5rem;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-radius: 0;
+    border-width: 1px;
+}
+
+label {
+    margin-bottom: 0px;
+}
+
+form {
+    width: 60%;
+}
+
+.form-btn {
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: #1ABC9C;
+}
+
+
+/* FOOTER */
+footer {
+    background-color: #2C3E50;
+    height: 80px;
+}
+
+footer div {
+    height: 100%;
+}
+
+.btn-social {
+    border-radius: 50%;
+}
