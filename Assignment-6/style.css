@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(120deg, #e2c35d, #d88771);
+    color: white;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 5rem;
+}
+
+header {
+    font-size: 2rem;
+}
+
+header, .form {
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-input, .add-button {
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background-color: white;
+}
+
+.todo-input{
+    width: 80%;
+}
+
+.add-button {
+    color: #ff6f47;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.add-button:hover {
+    background-color: #ff6f47;
+    color: white;
+}
+
+.todo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.todo-list {
+    width: 80%;
+    list-style: none;
+}
+
+.todoDiv {
+    margin: 0.5rem;
+    background-color: white;
+    color: black;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    word-break: break-word;
+    text-align: left;
+    height: 5.5rem;
+    font-weight: 500;
+}
+
+.todoBtnDiv {
+    background-color: #ff6f47;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.todoDel:hover, .todoUpdate:hover, .todoUp:hover, .todoDown:hover {
+    background-color: #ff6f47;
+    color: white;
+}
+
+.todoDel, .todoUpdate, .todoUp, .todoDown {
+    color: #ff6f47;
+    background-color: white;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+.todoLi {
+    margin: 0 0.5rem;
+}
+
+.updateInput {
+    margin: 0 0.5rem 0 0.5rem;
+    width: 100%;
+    font-size: 1.4rem;
+    padding: 0.5rem;
+}
+
+@media screen and (max-width: 1110px) {
+    .todoDiv {
+        height: 7rem;
+    }
+}
+
+@media screen and (max-width: 910px) {
+    .todoDiv {
+        height: 9rem;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .todo-list {
+        width: 100%;
+    }
+    .todo-input {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .todoDiv {
+        flex-direction: column;
+        height: fit-content;
+        margin: 1.5rem;
+    }
+    .todoBtnDiv{
+        width: 100%;
+        justify-content: center;
+    }
+    .todoDel:hover, .todoUpdate:hover, .todoUp:hover, .todoDown:hover {
+        color: #ff6f47;
+        background-color: white;
+    }
+    
+    .todoDel, .todoUpdate, .todoUp, .todoDown {
+        background-color: #ff6f47;
+        color: white;
+        transition: all 0.3s ease;
+    }
+}
