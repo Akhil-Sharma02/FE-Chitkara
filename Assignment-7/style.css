@@ -1,0 +1,134 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-image: url('https://wallpaperaccess.com/full/1782498.jpg');
+    height: 100vh;
+    width: 100vw;
+    font-family: "Poppins",sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: rgba(192,192,192, 0.7);
+    width: 40vw;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+#cityName {
+    border: none;
+    height: 2.5rem;
+    width: 80%;
+    margin-top: 2.5rem;
+    font-size: 1.7rem;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #353535;
+    color: #f8f8f8;
+}
+
+.btn {
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    width: 80%;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: none;
+    height: 2rem;
+    color: #353535;
+    background-color: #f8f8f8;
+}
+
+.info {
+    height: 80%;
+    bottom: 0px;
+    width: 80%;
+    flex-grow : 1;
+    margin-bottom: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.icon {
+    height: 3rem;
+    width: 3rem;
+}
+
+.result {
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.name {
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: "Kaisei+Tokumi";
+}
+
+.date {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.condition {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1000px) {
+    .box {
+        width: 60vw;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .box {
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .box {
+        width: 100vw;
+    }
+    .btn {
+        font-size: 1rem;
+    }
+    .result {
+        font-size: 1rem;
+    }
+    .name {
+        font-size: 1.5rem;
+    }
+    .date {
+        font-size: 0.7rem;
+    }
+    .condition {
+        font-size: 1rem;
+    }
+}
